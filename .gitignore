@@ -1,0 +1,14 @@
+# deps
+/node_modules
+/vendor
+/css
+/js/creative.min.js
+
+# build
+/build
+
+# misc
+.DS_Store
+.firebase
+
+# logs
