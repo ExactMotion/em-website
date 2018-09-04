@@ -30,7 +30,7 @@ You must have npm and Gulp installed globally on your machine in order to use th
 ExactMotion is an Mobile/Web App Development Company that helps Idea Owners, Entrepreneurs and everyone esle to make their idea a reality.
 
 * https://exactmotion.xyz
-* https://twitter.com/exactmotion
+* https://twitter.com/exactmotiondev
 
 ## Copyright and License
 
