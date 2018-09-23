@@ -1,10 +1,10 @@
-// Styling for the portfolio section
-.portfolio-box {
+// Styling for the partners section
+.partners-box {
   position: relative;
   display: block;
   max-width: 650px;
   margin: 0 auto;
-  .portfolio-box-caption {
+  .partners-box-caption {
     position: absolute;
     bottom: 0;
     display: block;
@@ -15,7 +15,7 @@
     color: $white;
     background: fade-out($primary, .1);
     @include transition-all;
-    .portfolio-box-caption-content {
+    .partners-box-caption-content {
       position: absolute;
       top: 50%;
       width: 100%;
@@ -37,7 +37,7 @@
     }
   }
   &:hover {
-    .portfolio-box-caption {
+    .partners-box-caption {
       opacity: 1;
     }
   }
@@ -45,8 +45,8 @@
     outline: none;
   }
   @media (min-width: 768px) {
-    .portfolio-box-caption {
-      .portfolio-box-caption-content {
+    .partners-box-caption {
+      .partners-box-caption-content {
         .project-category {
           font-size: 16px;
         }
