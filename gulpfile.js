@@ -121,7 +121,7 @@ gulp.task('browserSync', function() {
 });
 
 // Dev task
-gulp.task('dev', ['css', 'js', 'browserSync'], function() {
+gulp.task('dev', ['vendor', 'css', 'js', 'browserSync'], function() {
   gulp.watch('./scss/*.scss', ['css']);
   gulp.watch('./js/*.js', ['js']);
   gulp.watch('./*.html', browserSync.reload);
@@ -165,8 +165,8 @@ gulp.task('move-index', function() {
 //serve-prod but in sequence
 gulp.task('build-prod', function (callback) {
     runSequence('clean:production',
-        ['css', 'js', 'vendor', 'move-js', 'move-css', 
-         'move-vendor', 'move-images', 'move-index'],
+        'css', 'js', 'vendor', 'move-js', 'move-css', 
+         'move-vendor', 'move-images', 'move-index',
         callback
     );
 });
