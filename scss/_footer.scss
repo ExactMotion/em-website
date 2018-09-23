@@ -1,0 +1,40 @@
+// Styling for the footer section
+.section-footer {
+  padding: 4rem 0;
+  padding-bottom: 1rem;
+
+  i {
+    font-size: 1em;
+  }
+
+  .img-logo-footer {
+    height: 20px;
+    border-radius: 50%;
+  }
+
+  .footer {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .footer-social {
+    padding-top: 1rem;
+    a {
+      padding-right: 0.5rem;
+    }
+  }
+
+  .footer-contact {
+    padding-top: 1rem;
+    a {
+      color: $gray-600;
+    }
+    a:hover {
+      color: $primary;
+    }
+  }
+
+  .copyright {
+    color: $gray-600;
+  }
+}
